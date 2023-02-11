@@ -119,7 +119,7 @@ const customSelectOption1 = document.getElementsByClassName('custom-select__opti
 
 customSelectToggle.addEventListener("click", function () {
   customSelectDropdown.classList.toggle("active");
-  if(customSelectToggle1.style.zIndex == 0){
+  if(customSelectDropdown.classList.contains("active")){
     
   customSelectToggle1.style.zIndex = -1
   customSelectDropdown1.style.zIndex = -1
